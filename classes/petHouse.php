@@ -6,7 +6,7 @@ class PetHouse extends Products {
     public $style;
 
     function __construct(Array $_category,String $_name , String $_brand, String $_price, String $_description, String $_image, String $_dimension, String $_style){
-        parent::__construct($category, $name, $brand, $price, $description, $image);
+        parent::__construct($_category, $_name, $_brand, $_price, $_description, $_image);
         $this->dimension = $_dimension;
         $this->style = $_style;
     }

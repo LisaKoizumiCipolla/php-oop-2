@@ -1,3 +1,5 @@
+
+
 <?php
 include_once __DIR__ . '/category.php';
 
@@ -9,7 +11,7 @@ class Products extends Category{
     public $image;
 
     function __construct(Array $_category, String $_name, String $_brand, String $_price, String $_description, String $_image){
-        parent::construct($category)
+        parent::construct($_category);
         $this->name = $_name;
         $this->brand = $_brand;
         $this->price = $_price;
@@ -17,5 +19,6 @@ class Products extends Category{
         $this->image = $_image;
     }
 }
+//$prodotto = new Products ([new Category ('cane'), new Category('gatto')], 'brand', 'price', 'description')
 
 ?>
