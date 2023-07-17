@@ -1,6 +1,6 @@
 <?php
 
-class Category {
+class Category{
     public $category;
 
     function __construct(String $_category){
