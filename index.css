@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    margin: 0 auto;
+    
+}
+
+.container{
+    width: 100%;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+ul.info{
+    list-style-type: none;
+    font-style: italic;
+}
